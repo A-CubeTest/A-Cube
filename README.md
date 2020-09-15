@@ -37,7 +37,23 @@ Games are references to games installed inside our device, they are composed by:
 
 ### Links ###
 Links are objects that relate Actions to Events. When the Action is performed, the defined gesture is generated from the associated event. They are composed by:  
-  * **Action name**    
-  * **Event name**  
-  * **Marker size**    
-  * **Marker color**  
+  * **Action name**, reference to a registered action.  
+  * **Event name**, reference to a registered event.    
+  * **Marker size**, size of the marker used to define the point on the screen where the user wants the event to be executed the event.      
+  * **Marker color**, color of the marker just mentioned above.  
+  
+### SVM Models ### 
+SVM Models are references to models created using the Support Vector Machines (SVM) classifier. These models allow the recognition of vocal commands. They are composed by:  
+  * **Name**, uniquely identifies the SVM Models inside A-Cube.  
+  * **Sounds**, names of the Vocal Actions that the model is capable of recognize.  
+  
+### Configurations ###  
+Configurations are containers that serve to group Links according to a logical scheme. For example we can create two Configurations for the same game: the first containing
+Voice actions and the second containing Button actions that activate both the same Events. They are composed by:  
+  * **Name**, is the name of the Configuration, two Configurations cannot exist with the same name associated with the same game.   
+  * **Bundle-ID**,indicates which game the Configuration refers to.
+  * **SVM Model**, SVM Model name used in this Configuration.    
+  * **Selected**, value that indicates which configuration it is active.  
+  * **Links**, the list of Links contained in this Configuration.  
+  
+
