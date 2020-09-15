@@ -7,16 +7,10 @@ In order to generate an event starting from the user's action, it is necessary t
 
 Once these two information are known, the association between the action of the user and the event that can be made to happen in the video game. QAAD needs two main components to work:  
 **1. QAAD Configuration**  
-**2. QAAD Tap Position**
-
-### QAAD Configuration  
 It allows you to record external input devices and commands to be stored, as well as voice commands for voice interaction.  
 In addition to storing user actions, QAAD Configuration allows you to associate them with the events that can be created with the installed video games. It stores the list of available video games and for each of them they come saved events.  
-
-### QAAD Tap Position  
-In order to trigger the events in the video game associated with the player's actions, it's necessary to know the coordinates of the elements that make up the screen.
-What QAAD Tap Position need to do is use the screenshots of the video game screens, you need to click on a specific point to derive its coordinates, which are subsequently used
-to manually update the information contained in the configuration file of video games.  
+**2. QAAD Tap Position**  
+In order to trigger the events in the video game associated with the player's actions, it's necessary to know the coordinates of the elements that make up the screen. What QAAD Tap Position need to do is use the screenshots of the video game screens, you need to click on a specific point to derive its coordinates, which are subsequently used to manually update the information contained in the configuration file of video games.    
 
 # A-Cube (Adaptive Android Assistant) <img src="img/a_cube_logo.png" width=150>  
 A-Cube it's an expansion of the QAAD project and it's composed by an Accessibility Service (*AccessibilityService_A-Cube*) and a configuration app (*A-Cube*).  
