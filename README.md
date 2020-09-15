@@ -14,7 +14,7 @@ In order to trigger the events in the video game associated with the player's ac
 
 # A-Cube (Adaptive Android Assistant) <img src="img/a_cube_logo.png" width=150>  
 A-Cube it's an expansion of the QAAD project and it's composed by an Accessibility Service (*AccessibilityService_A-Cube*) and a configuration app (*A-Cube*).  
-The main data structures are **Actions**, **Events**, **Games** and **Links**.  
+The main data structures are **Actions**, **Events**, **Games**, **Links**, **SVM Models** and **Configurations**.  
 ### Actions ###
 Actions are the input commands through which it is possible activate Events, they are composed by:  
   * **Name**, the name who identify the specific action (for example Vocal A or Button B).  
