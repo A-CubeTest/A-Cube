@@ -18,7 +18,7 @@ In order to trigger the events in the video game associated with the player's ac
 What QAAD Tap Position need to do is use the screenshots of the video game screens, you need to click on a specific point to derive its coordinates, which are subsequently used
 to manually update the information contained in the configuration file of video games.  
 
-# A-Cube (Adaptive Android Assistant) <img src="img/ic_launcher.png">  
+# A-Cube (Adaptive Android Assistant) <img src="img/a_cube_logo.png" width=150>  
 A-Cube it's an expansion of the QAAD project and it's composed by an Accessibility Service (*AccessibilityService_A-Cube*) and a configuration app (*A-Cube*).  
 The main data structures are **Actions**, **Events**, **Games** and **Links**.  
 ### Actions ###
