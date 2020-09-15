@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tab_action.TabAction">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_add_black_24dp"
+        app:backgroundTint="@color/trueGreen" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newVocal"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/newButton"
+        android:layout_alignEnd="@+id/newButton"
+        android:layout_marginStart="342dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/baseline_mic_white_24dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:fabCustomSize="40dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/newAction"
+        android:layout_alignEnd="@+id/newAction"
+        android:layout_marginStart="342dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/baseline_games_white_24dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabCustomSize="40dp" />
+
+    <Button
+        android:id="@+id/noiseButton"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toStartOf="@+id/newAction"
+        android:text="@string/environmental_noise_button"
+        android:visibility="invisible" />
+
+</RelativeLayout>

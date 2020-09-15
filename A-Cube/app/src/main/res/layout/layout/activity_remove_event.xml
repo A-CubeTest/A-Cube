@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabGames.NewEvent">
+
+
+    <TextView
+        android:id="@+id/activity_remove_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="-22dp"
+        android:layout_toStartOf="@+id/activity_remove_delete"
+        android:text="Gioco"
+        android:textAlignment="textEnd"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/activity_remove_text_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/activity_remove_text_event"
+        android:layout_alignTop="@+id/activity_remove_name"
+        android:layout_marginStart="0dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/activity_remove_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/activity_remove_name"
+        android:layout_alignEnd="@+id/activity_remove_name"
+        android:layout_marginTop="68dp"
+        android:text="Evento"
+        android:textAlignment="textEnd"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/activity_remove_text_event"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/activity_remove_action_text"
+        android:layout_alignTop="@+id/activity_remove_event"
+        android:layout_marginStart="0dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/activity_remove_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/activity_remove_name"
+        android:layout_alignEnd="@+id/activity_remove_name"
+        android:layout_marginTop="129dp"
+        android:text="Azione"
+        android:textAlignment="textEnd"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/activity_remove_action_text"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/activity_remove_action"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="40dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+
+
+    <Button
+        android:id="@+id/activity_remove_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:text="Elimina" />
+
+</RelativeLayout>
