@@ -14,6 +14,7 @@ In order to trigger the events in the video game associated with the player's ac
 
 # A-Cube (Adaptive Android Assistant) <img src="img/a_cube_logo.png" width=150>  
 A-Cube it's an expansion of the QAAD project and it's composed by an Accessibility Service (*AccessibilityService_A-Cube*) and a configuration app (*A-Cube*).  
+The A-Cube configuration application stores the objects we're going to describe below in the Downloads folder of the mobile device where it's installed.
 The main data structures are **Actions**, **Events**, **Games**, **Links**, **SVM Models** and **Configurations**.  
 ### Actions ###
 Actions are the input commands through which it is possible activate Events, they are composed by:  
@@ -53,7 +54,7 @@ Voice actions and the second containing Button actions that activate both the sa
   * **Name**, is the name of the Configuration, two Configurations cannot exist with the same name associated with the same game.   
   * **Bundle-ID**,indicates which game the Configuration refers to.
   * **SVM Model**, SVM Model name used in this Configuration.    
-  * **Selected**, value that indicates which configuration it is active.  
+  * **Selected**, value that indicates which Configuration it is active.  
   * **Links**, the list of Links contained in this Configuration.  
   
 
