@@ -60,14 +60,17 @@ When you open the Accessibility Service's file you will see this icon   <img src
 <img src="img/AndroidStudio_Install.png">  
 
 ## Demo ##
-Launch the app *A-Cube* <img src="img/a_cube_logo.png" width=30>, grant permissions and in the "*GAMES* section tap the add button on the bottom-right of the screen to add a game.  
-`N.B. sometimes the app may crash on first launch, grant permissions anyway and reopen the app.`  
+### Add a Configuration for a game ###
+Launch the app *A-Cube* <img src="img/a_cube_logo.png" width=30>, grant permissions and in the "*GAMES*" section tap the add button on the bottom-right of the screen to add a game.  
+`N.B. Sometimes the app may crash on first launch, grant permissions anyway and reopen the app.`  
 
-Now go to the "*ACTIONS*" section and tap the add button to add a new Configuration, select the type of Configuration (Vocal or Buttons), choose a name for the Action and then (in case you had choose Vocal Action) tap the bottom-center button "*NUOVO COMANDO VOCALE*". Now tap the button "*REC*" to start recording the voice command, speak a voice sound you want to use in the game.  
-Before associating the newly created Configuration to the inserted game, open the game and take a screenshot of the screen you will have to interact with.  
+Now go to the "*ACTIONS*" section and tap the add button to add a new Action, select the type of Action (Vocal or Buttons), choose a name for the Action and then (in case you had choose Vocal Action) tap the bottom-center button "*NUOVO COMANDO VOCALE*". Now tap the button "*REC*" to start recording the voice command, speak a voice sound you want to use in the game.  
+Before associating the newly created Action to the inserted game, open the game and take a screenshot of the screen you will have to interact with.  
 
 Now turn back into the Configuration app tap on the game in the "*GAMES*" section, tap the add button to insert a new Configuration, choose a name, press "*SALVA*" and then tap the newly added configuration. Tap the add button to add an Event, choose: a name, the type (the gesture we want reproduce by our voice sound), the Action (the configuration we saved first); then tap the grey rectangle with the camera icon to add the game screenshot, tap a point where you want to reproduce the gesture, choose a size and a color for the marker on the screenshot and finally tap the "*SAVE*" button on the bottom-right to save.  
 
-Now that we have the configuration we need to update the voice recognition, so tap on the button "*AGGIORNA IL RICONOSCIMENTO VOCALE*" and wait until model training is completed.
+Now that you have the configuration you need to update the voice recognition, so tap on the button "*AGGIORNA IL RICONOSCIMENTO VOCALE*" and wait until model training is completed. You should notice that the circle near the game is now *green*, this indicates that the game has been set up correctly.  
+
+### Enable the Accessibility Service ###
 
 
