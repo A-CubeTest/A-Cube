@@ -49,4 +49,6 @@ Voice actions and the second containing Button actions that activate both the sa
   * **Selected**, value that indicates which Configuration it is active.  
   * **Links**, the list of Links contained in this Configuration.  
   
-# Instructions for testing the code #
+# Instructions for testing the code #  
+## Install from Android Studio ##
+First of all click on the <img src="img/sshot_codeButton.png" width=70> button, then on "Download Zip" to download the repo's zip.
