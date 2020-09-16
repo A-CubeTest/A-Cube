@@ -54,7 +54,7 @@ Voice actions and the second containing Button actions that activate both the sa
 First of all click on the <img src="img/sshot_codeButton.png" width=70> button, then on "Download ZIP" to download the repo's zip. Then go to the folder where you downloaded the zip, right click and extract to *"A-Cube-master"*.  
 Now open Android Studio and click on **"Open an existing Android Studio project"** or **"File -> Open.. -> A-Cube-master -> A-Cube -> OK"** and wait until gradle sync, etc.. are done.  
 Make the same thing on a new Android Studio window for the *AccessibilityService_A-Cube* **"File -> Open.. -> A-Cube-master -> AccessibilityService_A-Cube -> OK"**.  
-When you open the Accessibility Service's file you will see this icon   <img src="img/sshot_editConfig.png" width=70>   on the top center of the window, click on it and then on "*Edit Configurations*". In Launch Options click on **Default Activity** and then select **Nothing**, confirm with "**OK**". Now click on the "Play" button to install the Accessibility Service on your device (you will see this in Accessibility Settings -> Installed services).  
+When you open the Accessibility Service's file you will see this icon   <img src="img/sshot_editConfig.png" width=70>   on the top center of the window, click on it and then on "*Edit Configurations*". In Launch Options click on **Default Activity** and then select **Nothing**, confirm with "**OK**". Now click on the "Run" button to install the Accessibility Service on your device (you will see this in Accessibility Settings -> Installed services).  
 N.B. In some cases the same procedure must also be done for the *"A-Cube"* file, for this you will have to manually launch the app from your device.
 
 
