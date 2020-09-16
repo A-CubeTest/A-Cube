@@ -81,5 +81,16 @@ Now that you have the configuration you need to update the voice recognition, so
 <img src="img/RePlay_Demo4.png">
 
 ### Enable the Accessibility Service ###
+In order to use the Configuration defined above you need to enable the Accessibility Service (*AccessibilityService_A-Cube*).  
+So go to **Settings -> Accessibility -> Installed Services**, tap on **A-Cube -Accessibility Service** and switch on the toggle button. Then press **OK** in the message that comes up next, the first time you enable this accessibility service you have to guarantee permissions.
+
+After you activate the service, open the previously configured game and you will see a message showing the active configuration for that game, this shows that the accessibility service is active and has detected the configuration setted for that game.
+
+`N.B. In some cases you have to switch on and off the toggle button twice to make the system work.`  
+
+<img src="img/RePlay_Demo5.png">  
+
+`N.B. This demo was made with a Samsung Galaxy S8 device with Android 9, in other smartphones maybe accessibility and installed services sections are in other places, in these cases get information about it.  
+Also in some cases you have to put the accessibility service between apps that are exempt from battery optimization to prevent the accessibility service from being disabled.`  
 
 
