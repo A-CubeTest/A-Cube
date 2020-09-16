@@ -1,13 +1,12 @@
 # RePlay #
-RePlay is a system made up by an Accessibility Service and a configuration app who improve videogames's accessibility on mobile devices. The old name of this system was *A-Cube*, much of the code still uses this old name.  
+RePlay is a system who improve videogames's accessibility on mobile devices, the old name of this system was *A-Cube* (much of the code still uses this old name).  
 The idea is to be able to simulate the action that the user intends to do by intercepting this what does it do.
 In order to generate an event starting from the user's action, it is necessary to know two things:
 * know what are the interaction tools that the user uses (peripherals external input or voice commands) and what are the actions it can perform with such tools
 * know which are the events of the games that it is possible to generate (meaning where on the screen is it possible to have an interaction with the graphic elements).      
 
-## A-Cube (Adaptive Android Assistant) ## <img src="img/a_cube_logo.png" width=150>  
-A-Cube it's an expansion of the QAAD project and it's composed by an Accessibility Service (*AccessibilityService_A-Cube*) and a configuration app (*A-Cube*).  
-The A-Cube configuration app stores the objects we're going to describe below in the Downloads folder of the mobile device where it's installed.
+RePlay is composed by an Accessibility Service (*AccessibilityService_A-Cube*) and a configuration app (*A-Cube*).  
+The configuration app stores the objects we're going to describe below in the Downloads folder of the mobile device where it's installed.
 The main data structures are **Actions**, **Events**, **Games**, **Links**, **SVM Models** and **Configurations**.  
 ### Actions ###
 Actions are the input commands through which it is possible activate Events, they are composed by:  
