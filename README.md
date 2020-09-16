@@ -23,9 +23,9 @@ Events are objects capable of emulating interactions with the touch screen of mo
   
 #### Games ####
 Games are references to games installed inside our device, they are composed by:  
-  * **Bundle-id**, name of the game package that identifies it uniquely within A-Cube.  
-  * **Title**, game title, is shown inside A-Cube to identify the game.  
-  * **Icon**, game icon, is shown inside A-Cube to identify the game.   
+  * **Bundle-id**, name of the game package that identifies it uniquely within RePlay.  
+  * **Title**, game title, is shown inside RePlay to identify the game.  
+  * **Icon**, game icon, is shown inside RePlay to identify the game.   
   * **Events**, the list of events associated with this game.  
 
 #### Links ####
@@ -37,7 +37,7 @@ Links are objects that relate Actions to Events. When the Action is performed, t
   
 #### SVM Models #### 
 SVM Models are references to models created using the Support Vector Machines (SVM) classifier. These models allow the recognition of vocal commands. They are composed by:  
-  * **Name**, uniquely identifies the SVM Models inside A-Cube.  
+  * **Name**, uniquely identifies the SVM Models inside RePlay.  
   * **Sounds**, names of the Vocal Actions that the model is capable of recognize.  
   
 #### Configurations ####  
