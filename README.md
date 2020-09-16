@@ -69,7 +69,9 @@ Now go to the "*ACTIONS*" section and tap the add button to add a new Action, se
 <img src="img/RePlay_Demo2_1.png">  
 <img src="img/RePlay_Demo2_2.png">  
 
-Before associating the newly created Action to the inserted game, open the game and take a screenshot of the screen you will have to interact with.  
+Before associating the newly created Action to the inserted game, open the game and take a screenshot of the screen you will have to interact with. For example:   
+<img src="img/sshot_S9.jpg" width=150>  
+
 Now turn back into the Configuration app tap on the game in the "*GAMES*" section, tap the add button to insert a new Configuration, choose a name, press "*SALVA*" and then tap the newly added configuration. Tap the add button to add an Event, choose: a name, the type (the gesture we want reproduce by our voice sound), the Action (the configuration we saved first); then tap the grey rectangle with the camera icon to add the game screenshot, tap a point where you want to reproduce the gesture, choose a size and a color for the marker on the screenshot and finally tap the "*SAVE*" button on the bottom-right to save.  
 
 Now that you have the configuration you need to update the voice recognition, so tap on the button "*AGGIORNA IL RICONOSCIMENTO VOCALE*" and wait until model training is completed. You should notice that the circle near the game is now *green*, this indicates that the game has been set up correctly.  
