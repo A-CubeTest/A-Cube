@@ -65,7 +65,7 @@ Launch the app *A-Cube* <img src="img/a_cube_logo.png" width=30>, grant permissi
 `N.B. Sometimes the app may crash on first launch, grant permissions anyway and reopen the app.`  
 <img src="img/RePlay_Demo1.png">
 
-Now go to the "*ACTIONS*" section and tap the add button to add a new Action, select the type of Action (Vocal or Buttons), choose a name for the Action and then (in case you had choose Vocal Action) tap the bottom-center button "*NUOVO COMANDO VOCALE*". Now tap the button "*REC*" to start recording the voice command, speak a voice sound you want to use in the game.  
+Now go to the "*ACTIONS*" section and tap the add button to add a new Action, select the type of Action (Vocal or Buttons), choose a name for the Action and then (in case you had choose Vocal Action) tap the bottom-center button "*NUOVO COMANDO VOCALE*". Now tap the button "*REC*" to start recording the voice command, speak a long voice sound you want to use in the game (for example *"aaaaa"*) then tap the button "*STOP*".  
 <img src="img/RePlay_Demo2_1.png">  
 <img src="img/RePlay_Demo2_2.png">  
 
