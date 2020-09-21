@@ -91,8 +91,8 @@ After you activate the service, open the previously configured game and you will
 <img src="img/RePlay_Demo5.png">  
 
 `N.B. This demo was made with a Samsung Galaxy S8 device with Android 9, in other smartphones maybe accessibility and installed services sections are in other places, in these cases get information about it.  
-Also in some cases you have to put the accessibility service between apps that are exempt from battery optimization to prevent the accessibility service from being disabled.
+Also in some cases you have to put the accessibility service between apps that are exempt from battery optimization to prevent the accessibility service from being disabled.`
 
-For do this in Samsung device you have to go to "Settings -> Applications -> A-Cube - Accessibility Service" then tap on "Battery -> Optimize battery use -> Non-optimized app -> All" and then switch off the A-Cube Accesssibility Service toggle button.`  
+`For do this in Samsung device you have to go to "Settings -> Applications -> A-Cube - Accessibility Service" then tap on "Battery -> Optimize battery use -> Non-optimized app -> All" and then switch off the A-Cube Accesssibility Service toggle button.`  
 
 
