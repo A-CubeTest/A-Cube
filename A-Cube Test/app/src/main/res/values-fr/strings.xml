@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">A-Cube</string>
+    <string name="actions">Actes</string>
+    <string name="games">Jeux</string>
+
+    <string name="tutorial">Tutorial</string>
+    <string name="new_record">Enregistrer un nouveau son</string>
+    <string name="new_button_tutorial">Enregistrer un nouveau bouton</string>
+
+
+    <string name="file">File</string>
+    <string name="file_deleted">le fichier a été supprimé avec succès</string>
+    <string name="file_delete_info">Attention! En supprimant un fichier audio, vous devrez mettre à jour les modèles vocaux de toutes les configurations qui l\'ont utilisé.</string>
+
+    <string name="button_search">Changement</string>
+    <string name="continue_dialog">Continue</string>
+
+    <string name="button_saved">Bouton enregistré</string>
+    <string name="button_not_saved">Bouton non enregistré, connectez un périphérique Bluetooth et appuyez sur un bouton</string>
+    <string name="button_not_saved2">Un bouton avec le même code existe déjà</string>
+    <string name="button_deleted">Bouton supprimé</string>
+
+    <string name="insert_action_error">Insérer le nom de l\'action</string>
+    <string name="insert_action_error2">Une action du même nom existe déjà</string>
+
+    <string name="defined_events">Cette configuration a %1$s événements définis</string>
+    <string name="undefined_events">Cette configuration a %1$s événements non définis</string>
+
+    <string name="new_conf">Vous avez entré une nouvelle configuration</string>
+    <string name="new_conf_error">Choisissez un autre nom pour la configuration</string>
+
+    <string name="app_info">Chargement des informations sur les applications ...</string>
+
+    <string name="permission_denied">Vous ne pouvez pas utiliser cette application sans donner d\’autorisations</string>
+    <string name="conf_deleted">Vous avez supprimé </string>
+    <string name="rec_end">fin de l\'inscription</string>
+    <string name="file_saving">Sauvegarder des fichiers ...</string>
+    <string name="file_saved">Fichier sauvegardé</string>
+    <string name="insert_name">Entrez le nom de la commande</string>
+    <string name="rec_deleted">Enregistrement vocal supprimé</string>
+    <string name="action_deleted">L\'action a été supprimée avec succès</string>
+    <string name="link_deleted">Link supprimé avec succès</string>
+    <string name="recordings">Enregistrements</string>
+    <string name="remove_link">Supprimer le lien</string>
+    <string name="new_link">Nouveau lien</string>
+
+    <string name="no_name">vous n\'avez pas entré le nom</string>
+    <string name="no_event_type">vous n\'avez pas entré le type d\'événement</string>
+    <string name="no_screenshot">vous n\'avez pas saisi de capture d\'écran</string>
+    <string name="no_stop_action">Si Long Tap - ON / OFF est sélectionné, deux actions doivent être déclarées</string>
+    <string name="no_duration">définir une durée supérieure à 0 secondes</string>
+    <string name="event_exists">cet événement existe déjà</string>
+    <string name="link_exists">ce lien existe déjà</string>
+    <string name="link_added">lien ajouté correctement</string>
+
+
+    <string name="main_activity">interaction</string>
+    <string name="new_action">Nouvelle action</string>
+    <string name="menu_info">Info</string>
+    <string name="type_button">bouton</string>
+    <string name="type_vocal">vocal</string>
+    <string name="model_to_update">Mettre à jour la reconnaissance vocale</string>
+    <string name="model_updated">Reconnaissance vocale OK</string>
+    <string name="button_new">Nouveau bouton</string>
+
+    <string name="action_type_button">Bouton</string>
+    <string name="action_type_vocal">Vocal</string>
+
+    <string name="event_type_tap">Tap</string>
+    <string name="event_type_swipe">Swipe</string>
+    <string name="event_type_long_tap1">Long Tap - input length</string>
+    <string name="event_type_long_tap2">Long Tap - ON/OFF</string>
+    <string name="event_type_long_tap3">Long Tap - timed</string>
+
+    <string name="name">Prenom</string>
+    <string name="type">Genre</string>
+    <string name="missing_value">Manquant</string>
+    <string name="green_tick_description">Un marqueur vert apparaîtra si le lien est configuré correctement</string>
+    <string name="configuration">Configuration</string>
+    <string name="edit_events">Editer des événements</string>
+    <string name="voice_recognition">Initialiser la reconnaissance vocale</string>
+    <string name="game_name">nom du jeu</string>
+
+    <string name="action_name">Nom de l action</string>
+    <string name="action_type">Type d\'action</string>
+    <string name="device_id">Device ID</string>
+    <string name="button_id">Button ID</string>
+    <string name="delete_button">Annuler le bouton</string>
+
+    <string name="event_name">Nom de l\'événement</string>
+    <string name="event_type">Type d\'événement</string>
+    <string name="screenshot_description">ceci est une capture d\'écran du jeu que vous souhaitez configurer</string>
+    <string name="marker_description">le marqueur indique où cette action sera effectuée</string>
+    <string name="marker_size">Taille du marqueur</string>
+    <string name="marker_color">Couleur du marqueur</string>
+    <string name="input_duration">Durée d\'entrée</string>
+    <string name="time">temps en secondes</string>
+    <string name="action_stop">Action-stop</string>
+    <string name="new_voice_command">nouvelle commande vocale</string>
+    <string name="new_audio">nouvelle audio</string>
+
+
+    <string name="game">Jeu</string>
+    <string name="event">Evénement</string>
+    <string name="events">Evénements</string>
+    <string name="delete">Elimine</string>
+
+    <string name="new_game">Vous êtes entré dans un nouveau jeu</string>
+    <string name="game_exists">Le jeu que vous avez sélectionné existe déjà</string>
+    <string name="confirm">Confirmation</string>
+    <string name="cancel">Annuller</string>
+
+    <string name="name_conf">Entrez le nom de la configuration</string>
+
+    <string name="delete_action">Éliminer cette action</string>
+
+    <string name="record_pointer">rouge: vous n\'enregistrez pas vert: vous enregistrez un nouveau son</string>
+    <string name="records">rec</string>
+    <string name="stop">Stop</string>
+
+    <string name="play_description">ce bouton vous permet d\'écouter cet audio</string>
+    <string name="stop_description">ce bouton vous permet d\'arrêter cet audio</string>
+    <string name="delete_description">ce bouton vous permet de supprimer cet audio</string>
+
+    <string name="delete_configuration">supprimer la configuration</string>
+    <string name="configuration_deleted">la configuration a été correctement supprimée</string>
+
+    <string name="confN1">ConfigurationN°1</string>
+
+    <string name="environmental_noise_button">nouveau son environnemental</string>
+    <string name="game_config_marker">
+        rouge: le jeu n\'a pas été configuré
+
+        jaune: le jeu a été configuré en partie
+
+        vert: le jeu a été configuré correctement</string>
+
+    <string name="game_icon">icône du jeu sélectionné</string>
+    <string name="voice_command_saved">commande vocale enregistrée</string>
+    <string name="noises">Bruit</string>
+
+    <string name="noise_missing">Allez à l\'onglet Actions pour enregistrer un nouveau son ambiant</string>
+
+
+    <string name="tutorial_buttons">
+        Cette section vous permet d’enregistrer un nouveau bouton sur un périphérique externe.
+        Pour ce faire, connectez votre appareil à votre smartphone via Bluetooth.
+        Lorsque vous êtes prêt, appuyez sur le bouton Démarrer.
+    </string>
+
+    <string name="tutorial_audio">
+        Cette section vous permet d’enregistrer une nouvelle commande vocale.
+        Pour ce faire, assurez-vous d\'être dans un espace silencieux.
+        Lorsque vous êtes prêt, appuyez sur le bouton Démarrer.
+    </string>
+
+    <string name="new_button">Cliquez sur le bouton du périphérique externe que vous souhaitez mémoriser</string>
+    <string name="button">Bouton</string>
+    <string name="action">Action</string>
+    <string name="device">Device</string>
+    <string name="action_type1">type d\'action</string>
+    <string name="button_code">code du bouton</string>
+    <string name="device_code">code de l\'appareil</string>
+    <string name="save">Enregistrer</string>
+    <string name="empty_listview_actions">Il n\'y a pas d\'actions. Appuyez sur + pour en ajouter un</string>
+    <string name="empty_listview_games">Il n\'y a pas de jeux. Appuyez sur + pour en ajouter un</string>
+    <string name="empty_listview_links">Il n\'y a pas d\'événements. Appuyez sur + pour en ajouter un</string>
+    <string name="empty_listview_configurations">Il n\'y a pas de configuration. Appuyez sur + pour en ajouter un</string>
+    <string name="permissions_denied">autorisations refusées</string>
+    <string name="screen_position">Touchez le point de l\'écran où vous voulez que l\'action se déroule</string>
+
+
+    <string name="models_progress_bar_text">training de formation en cours</string>
+    <string name="delete_game">Attention! Supprimer un jeu éliminera également toutes ses configurations</string>
+    <string name="delete_config">Attention! Appuyez sur Elimine pour supprimer définitivement cette configuration.</string>
+
+    <string name="tutorial_tab_actions1">- Appuyez sur "+" pour ajouter une nouvelle action</string>
+    <string name="tutorial_tab_actions2">- Appuyez sur une action existante pour la modifier ou la supprimer.</string>
+
+    <string name="tutorial_tab_games1">- Appuyez sur "+" pour ajouter un nouveau jeu</string>
+    <string name="tutorial_tab_games2">- Appuyez sur un jeu pour ajouter ou modifier une configuration</string>
+    <string name="tutorial_tab_games3">- La balle colorée à côté du jeu indique son statut de configuration (vert = correctement configuré, jaune = quelque chose à changer, rouge = non configuré)</string>
+
+    <string name="tutorial_recordings1">- Appuyez sur le bouton "+" pour ajouter un enregistrement</string>
+    <string name="tutorial_recordings2">- Appuyez sur le bouton "Supprimer l'action" pour supprimer tous les fichiers qui lui sont associés</string>
+    <string name="tutorial_recordings3">Attention! Si vous décidez d\'ajouter un nouvel enregistrement, vous devrez essayer de répéter le son que vous avez précédemment enregistré, pas un nouveau!</string>
+
+    <string name="tutorial_configuration_list1">- Appuyez sur le bouton "+" pour ajouter une configuration</string>
+    <string name="tutorial_configuration_list2">- Appuyez sur le cercle à côté du nom de la configuration pour l\'activer</string>
+    <string name="tutorial_configuration_list3">- Appuyez sur le nom de la configuration pour afficher ses détails</string>
+
+    <string name="tutorial_configuration_detail1">- Appuyez sur le bouton "Corbeille" pour supprimer cette configuration</string>
+    <string name="tutorial_configuration_detail2">- Appuyez sur le bouton "+" pour ajouter un nouvel événement</string>
+    <string name="tutorial_configuration_detail3">- Lorsque vous ajoutez une action vocale à la configuration, le bouton d\'apprentissage vocal apparaît (rouge: modèle à entraîner, vert: modèle de travail détecté)</string>
+
+    <string name="start_tutorial_1">
+        Bonjour et bienvenue sur A-Cube!
+        Avec A-Cube, vous pouvez créer des raccourcis pour accéder rapidement à vos applications.
+        Commençons!
+    </string>
+    <string name="start_tutorial_2">
+        Un raccourci est un moyen rapide d\'activer un * événement * dans l\'application (appuyez sur un point de l\'écran) via une action * personnalisée *.
+        Vous pouvez définir deux types d\’actions: un bouton sur un périphérique externe ou une instruction audio.
+        Cette application vous permet de configurer les raccourcis pour toutes les applications installées sur votre smartphone.
+        Cette application vous permet de configurer les raccourcis pour vos applications.
+    </string>
+    <string name="start_tutorial_3">
+        Avant d\'utiliser cette application, pensez à désactiver les services d\'accessibilité A-Cube à partir des paramètres. Une fois la configuration terminée, vous pouvez réactiver le service.
+        Si vous n\'avez pas encore installé les services d\'accessibilité A-Cube, continuez ici pour le télécharger.
+    </string>
+    <string name="link_list_tutorial">
+        Ici vous pouvez voir les événements que vous avez configurés
+        Pour créer un raccourci qui fonctionne correctement pour chaque événement, vous devez associer une action.
+    </string>
+    <string name="coordinates_tutorial">
+        Ici, vous pouvez choisir où l\'événement sera activé. Vous avez besoin d\'une capture d\'écran du jeu que vous souhaitez configurer.
+    </string>
+    <string name="audio_recording_tutorial">
+        Choisissez un son simple que vous pouvez simplement reproduire.
+        Jouez le son sélectionné de différentes manières pendant environ 10 secondes.
+        N\'oubliez pas que vous pouvez écouter, supprimer ou ajouter de nouveaux enregistrements à partir de l\'onglet Actions.
+        Ici, vous pouvez écouter un échantillon audio.
+    </string>
+    <string name="device_tutorial">
+        Vérifiez que vous avez un périphérique Bluetooth connecté.
+        Si, en appuyant sur un bouton, les codes "Périphérique" et "Bouton" sont mis à jour, l\'application les reçoit correctement.
+    </string>
+    <string name="model_button_tutorial">
+        Vert: le modèle de voix a été initialisé correctement
+        Rouge: vous devez initialiser le modèle de voix pour que les liens fonctionnent
+    </string>
+    <string name="environmental_noise_tutorial">
+        Pour utiliser les commandes vocales, vous devez enregistrer un fichier audio avec le son de l\'environnement dans lequel vous souhaitez utiliser l\'application.
+    </string>
+</resources>

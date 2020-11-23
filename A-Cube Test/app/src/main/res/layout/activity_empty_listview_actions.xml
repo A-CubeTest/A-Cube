@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="305dp"
+        android:layout_marginBottom="306dp"
+        android:gravity="center"
+        android:paddingLeft="24dip"
+        android:paddingRight="24dip"
+        android:text="@string/empty_listview_actions"
+        android:textColor="@color/han_purple"
+        android:textSize="18sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_add_black_24dp"
+        app:backgroundTint="@color/emerald" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newVocal"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/newButton"
+        android:layout_alignEnd="@+id/newButton"
+        android:layout_marginStart="342dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/ic_mic_white_24dp"
+        app:backgroundTint="@color/fucsia"
+        app:fabCustomSize="40dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/newButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/newAction"
+        android:layout_alignEnd="@+id/newAction"
+        android:layout_marginStart="342dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_buttons_white_24dp"
+        app:backgroundTint="@color/blue"
+        app:fabCustomSize="40dp" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="spinnerEventType">
+
+    <item>Tap</item>
+
+    <item>Long Tap - Input length</item>
+    <item>Long Tap - ON/OFF</item>
+    <item>Long Tap - Timed</item>
+
+    <item>Swipe - Up</item>
+    <item>Swipe - Down</item>
+    <item>Swipe - Right</item>
+    <item>Swipe - Left</item>
+
+  </string-array>
+
+</resources>

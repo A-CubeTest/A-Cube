@@ -1,0 +1,413 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">A-Cube</string>
+    <string name="actions">Actions</string>
+    <string name="games">Games</string>
+
+    <string name="acc_service_description" tools:ignore="MissingTranslation">Questo è l\'accessibility service A-Cube</string>
+    <string name="channel_name">A-Cube notification</string>
+    <string name="channel_description">Questa è una notifica di A-Cube acc service</string>
+    <string name="noti_service_active_title">A-Cube è attivo</string>
+    <string name="noti_service_active_text">Apri un gioco configurato per utilizzarlo con A-Cube</string>
+    <string name="notification_active_config">Configurazione attiva</string>
+    <string name="notification_no_config_title">Nessuna configurazione per</string>
+    <string name="notification_no_config_text">Fai tap per aggiungere una configurazione.</string>
+
+    <string name="alert_dialog_remove_game_title">Delete Game</string>
+    <string name="alert_dialog_remove_game_text">Deleting the game will also delete the configurations associated with it.</string>
+
+    <string name="alert_dialog_remove_action_title">Delete action</string>
+    <string name="alert_dialog_remove_action_text">Deleting the action will delete all files associated with it, also some
+        configurations may have that action.</string>
+
+    <string name="alert_dialog_remove_conf_title">Delete configuration</string>
+    <string name="alert_dialog_remove_conf_text">Deleting the configuration will remove all events and screens associated with it.
+    </string>
+
+    <string name="alert_dialog_remove_link_title">Delete Link</string>
+    <string name="alert_dialog_remove_link_text">Are you sure you want to permanently delete the link?  </string>
+
+    <string name="alert_dialog_delete_btn">Delete</string>
+    <string name="alert_dialog_back_btn">Back</string>
+
+    <string name="empty_links">No links found for this configuration, tap the \" + \" button to add one.</string>
+
+    <!-- ConfigurationList_strings -->
+    <string name="conf_list_tv1">Configurations</string>
+    <string name="conf_list_tv2">Select a configuration to view its details</string>
+    <string name="conf_list_tv2_empty">You haven\'t entered any configuration for this game yet</string>
+    <string name="delete_conf_tv">Delete</string>
+    <string name="name_conf_tv">Name</string>
+    <string name="selected_conf_tv">Active</string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- ConfigurationDetail_strings -->
+    <string name="vocal_rec_state_tv">Vocal rec. \nstate</string>
+    <string name="btn_vocal_rec_state_text_ok">Vocal rec. ok</string>
+    <string name="btn_vocal_rec_state_text_not_possible">Vocal rec. not possible</string>
+    <string name="btn_vocal_rec_state_text_update">Update vocal rec.</string>
+    <string name="screen_list_tv1">Screens</string>
+    <string name="screen_list_tv2">Select a screen to view its details</string>
+    <string name="screen_list_tv2_empty">You haven\'t entered any yet screen for this configuration.</string>
+    <string name="screen_list_tv3_empty">Tap \" + \" to add a screen.</string>
+
+
+    <!-- ___________________________________________________________________ -->
+    <!-- ScreenActivity_strings -->
+    <string name="screenActivityTitle">Screen %1$s</string>
+    <string name="tapOnImageAlongside_tv">Tap on the image alongside to insert one screen</string>
+    <string name="tapOnImageAbove_tv">Tap on the image above to insert one screen</string>
+    <string name="eventListTitle_tv">Events</string>
+    <string name="eventList_tv2">Select an event to view its details.</string>
+    <string name="eventList_tv2_empty">You have not entered events for this screen</string>
+    <string name="eventTv_no_screen">To add an event you must first enter a screen.</string>
+    <string name="eventTv_add_event">Tap on \" Add event \" to add an event to this screen</string>
+    <string name="eventBtn_add_event">Add event </string>
+    <string name="delete_screen_btn">Delete screen</string>
+    <string name="edit_screen_btn">Edit screen</string>
+
+
+    <!-- ___________________________________________________________________ -->
+    <!-- FragmentEditScreen_strings -->
+    <string name="screenNameTitle">Screen name</string>
+    <string name="screenImageTitle">Image</string>
+    <string name="saveBtn">Save</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="changeBtn">Change</string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- NewLink|EditLink_strings -->
+    <string name="newLink_title">New event | %1$s</string>
+    <string name="editLink_title">Edit event | %1$s</string>
+    <string name="Link_EventName_et">Event name</string>
+    <string name="Link_SearchAction_tv">Action:</string>
+    <string name="Link_SearchAction_btn">Select action</string>
+    <string name="Link_SearchEventType_tv">Event type:</string>
+    <string name="Link_SearchEventType_btn">Select type</string>
+    <string name="Link_DurationTime_tv">Event duration:</string>
+    <string name="Link_DurationTime_et">Insert duration</string>
+    <string name="Link_SearchActionStop_tv">Action stop:</string>
+    <string name="Link_SearchActionStop_btn">Select action stop</string>
+    <string name="Link_MarkerSize_tv">Marker size</string>
+    <string name="Link_MarkerColor_tv">Marker color:</string>
+    <string name="Link_TapOnImageToAddMarker">Tap the image to add where to run the event.</string>
+    <string name="Link_TapOnImageToEditMarker">Tap the image to edit where to run the event.</string>
+    <string name="Link_NoPointSelected">You have not selected a point to hold the event</string>
+    <string name="colorPickerTitle">Select a color</string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- FragmentSelectAction_strings -->
+    <string name="selectActionTitle_tv">Actions</string>
+    <string name="selectActionEmpty_tv">There seems to be no actions available, go to the Actions section and add one</string>
+    <string name="actionNotAvailable">Used in %1$s</string>
+    <string name="actionNotAvailable2">Used in this screen</string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- FragmentSelectEventType_strings -->
+    <string name="eventTypeTitle_tv">Events type</string>
+    <string name="eventType_tv">Select the type of event you want to do</string>
+
+
+    <!-- ___________________________________________________________________ -->
+    <!-- AlertDialog_deleteScreen_strings -->
+    <string name="alertDeleteScreenTitle">Delete Screen</string>
+    <string name="alertDeleteScreenText">Deleting the screen will also delete the events associated with it.</string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- AlertDialog_infoScreenActivity_strings -->
+    <string name="closeBtn">Ok</string>
+    <string name="titleInfoScreenActivity">Screen details</string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- AlertDialog_TrainingModel_strings -->
+    <string name="title_training">Training in progress..</string>
+    <string name="training_tv">We are training the vocal recognition system to recognize your voice</string>
+    <string name="training_tv2">This will allow you to use the voice commands in the game you have configured</string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- SingleGameView_strings -->
+    <string name="singleGameView_green_tv">Game configured correctly</string>
+    <string name="singleGameView_orange_tv">Update vocal rec. necessary</string>
+    <string name="singleGameView_red_tv">Game configured correctly</string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- SingleConfigurationView_strings -->
+    <string name="singleConfigurationView_tv">This configuration has:</string>
+    <string name="singleConfigurationView_tv_events">- %1$d defined events </string>
+    <string name="singleConfigurationView_tv_screens">- %1$d defined screens </string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- FragmentAddConfiguration_strings -->
+    <string name="fragment_add_config_title">Name the configuration</string>
+    <string name="fragment_edit_config_title">Edit configuration\'s name</string>
+    <string name="fragment_add_config_error_name">This name is already used in another configuration of this game!</string>
+    <string name="fragment_add_config_error_empty_name">No name entered!</string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- NewVocalCommand_strings -->
+    <string name="newVocalCommand_title">Vocal action</string>
+    <string name="newVocalCommand_et">Action name</string>
+    <string name="newVocalCommand_tv">Name the action then tap \" add vocal \"</string>
+    <string name="newVocalCommand_btn">Add vocal</string>
+
+    <!-- ___________________________________________________________________ -->
+    <!-- VoiceRecorder_strings -->
+    <string name="voiceRecorder_title">Registration</string>
+    <string name="voiceRecorder_tv1">Make sure you are in a quiet place</string>
+    <string name="voiceRecorder_tv2">Produce a simple and continuous sound for 5 seconds</string>
+    <string name="voiceRecorder_tv3">When you\'re ready, tap \" Rec \" to start recording</string>
+
+
+    <!-- ___________________________________________________________________ -->
+
+    <string name="fragment_edit_screenshot_title">Edit Screenshot</string>
+    <string name="fragment_edit_screenshot_text_success">Image loaded successfully</string>
+    <string name="fragment_edit_screenshot_text_wrong">Image not loaded successfully</string>
+    <string name="fragment_edit_screenshot_text_upload">Upload screenshot</string>
+
+    <string name="config_list_cell_no_defined_events">This configuration has no defined events</string>
+    <string name="config_list_cell_one_defined_event">This configuration has one defined event</string>
+    <string name="config_list_cell_more_defined_events">This configuration has %1$d defined events</string>
+
+    <string name="single_link_view_action">Action: </string>
+
+    <string name="tutorial">Tutorial</string>
+    <string name="new_record">Record a new sound</string>
+    <string name="new_button_tutorial">Register a new button</string>
+
+    <string name="no_screenshot_added">You have not entered any screenshot for this configuration, tap the \" + \"
+        button to add one. </string>
+    <string name="select_screenshot_textview">Select the screen where you want to define the link.</string>
+
+    <string name="file">File</string>
+    <string name="file_deleted">the file has been removed successfully</string>
+    <string name="file_delete_info">Warning! By deleting an audio file you will need to update the vocal models of all the configurations that used it</string>
+
+    <string name="button_search">Change</string>
+    <string name="continue_dialog">Continue</string>
+
+    <string name="button_saved">Button saved</string>
+    <string name="button_not_saved">Button not saved, connect a bluetooth device and press a button</string>
+    <string name="button_not_saved2">A button with the same code already exists</string>
+    <string name="button_deleted">Button deleted</string>
+
+    <string name="insert_action_error">Insert the name of the action</string>
+    <string name="insert_action_error2">An action with the same name already exists</string>
+
+    <string name="defined_events">This configuration has %1$s defined events</string>
+    <string name="undefined_events">This configuration has %1$s undefined events</string>
+
+    <string name="new_conf">You have entered a new configuration</string>
+    <string name="new_conf_error">Choose another name for the configuration</string>
+
+    <string name="app_info">Loading apps info...</string>
+
+    <string name="permission_denied">"You can\'t use this app without giving permissions"</string>
+    <string name="conf_deleted">You have deleted </string>
+    <string name="rec_end">end of registration</string>
+    <string name="file_saving">Saving files ...</string>
+    <string name="file_saved">File saved</string>
+    <string name="insert_name">Enter the command name</string>
+    <string name="rec_deleted">Vocal record deleted</string>
+    <string name="action_deleted">The action was successfully deleted</string>
+    <string name="link_deleted">Link successfully deleted</string>
+    <string name="recordings">Recordings</string>
+    <string name="remove_link">Remove link</string>
+    <string name="new_link">New Event</string>
+    <string name="link_added">link successfully added</string>
+
+    <string name="no_name">You have not entered the name</string>
+    <string name="no_event_type">You have not entered the event type</string>
+    <string name="no_action">You have not entered an action</string>
+    <string name="no_screenshot">You have not entered a screenshot</string>
+    <string name="no_stop_action">If you select Long Tap - ON/OFF you have to declare two actions</string>
+    <string name="no_duration">Define a duration in seconds greater than 0</string>
+    <string name="event_exists">This event already exist</string>
+    <string name="link_exists">This link already exist</string>
+
+    <string name="main_activity">Interation</string>
+    <string name="new_action">New Action</string>
+    <string name="menu_info">Info</string>
+    <string name="type_button">button</string>
+    <string name="type_vocal">vocal</string>
+    <string name="model_to_update">Update voice recognition</string>
+    <string name="model_updated">Voice Recognition OK</string>
+    <string name="button_new">New Button</string>
+
+    <string name="action_type_button">Button</string>
+    <string name="action_type_vocal">Vocal</string>
+
+    <string name="event_type_tap">Tap</string>
+    <string name="event_type_swipe">Swipe</string>
+    <string name="event_type_long_tap1">Long Tap - input length</string>
+    <string name="event_type_long_tap2">Long Tap - ON/OFF</string>
+    <string name="event_type_long_tap3">Long Tap - timed</string>
+
+    <string name="name">Name</string>
+    <string name="type">Type</string>
+    <string name="missing_value">missing</string>
+    <string name="green_tick_description">A green tick appears if the link is configured correctly</string>
+    <string name="configuration">Configuration</string>
+    <string name="edit_events">Edit Events</string>
+    <string name="voice_recognition">Initialize voice recognition</string>
+    <string name="game_name">Name of the game</string>
+
+    <string name="action_name">Action Name</string>
+    <string name="action_type">Action Type</string>
+    <string name="device_id">Device ID</string>
+    <string name="button_id">Button ID</string>
+    <string name="delete_button">Delete Button</string>
+
+    <string name="event_name">Event Name</string>
+    <string name="event_type">Event Type</string>
+    <string name="screenshot_description">Here is a screenshot of the game you want to configure</string>
+    <string name="marker_description">the marker indicates where the action will be performed</string>
+    <string name="marker_size">Marker Size</string>
+    <string name="marker_color">Marker Color</string>
+    <string name="input_duration">Input Duration</string>
+    <string name="time">time in seconds</string>
+    <string name="action_stop">Action-stop</string>
+    <string name="new_voice_command">new voice command</string>
+    <string name="new_audio">new audio</string>
+
+
+    <string name="game">Game</string>
+    <string name="event">Event</string>
+    <string name="events">Events</string>
+    <string name="delete">Delete</string>
+
+    <string name="new_game">You have entered a new game</string>
+    <string name="game_exists">the game you selected has already been entered</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="name_conf">Insert the name of the configuration</string>
+
+    <string name="delete_action">Delete the action</string>
+
+    <string name="record_pointer">red: you re not recording  green: you are recording a new audio</string>
+    <string name="records">record</string>
+    <string name="stop">Stop</string>
+
+    <string name="play_description">this button allows you to listen to the audio</string>
+    <string name="stop_description">this button allows you to stop to the audio</string>
+    <string name="delete_description">this button allows you to delete to the audio</string>
+
+    <string name="delete_configuration">delete configuration</string>
+    <string name="configuration_deleted">the configuration has been removed successfully</string>
+
+    <string name="confN1">ConfigurationN°1</string>
+
+    <string name="environmental_noise_button">new environmental noise</string>
+    <string name="game_config_marker">
+        red: the game has not been configured
+
+        yellow: the game has been partially configured
+
+        green: the game has been configured correctly</string>
+
+    <string name="game_icon">selected game icon</string>
+    <string name="voice_command_saved">voice command saved</string>
+    <string name="noises">Noises</string>
+
+    <string name="noise_missing">Go to the action tab to record a new ambient sound</string>
+
+
+    <string name="tutorial_buttons">
+        This section allows you to register a new external device button.
+        To do this, connect your device to your smartphone via Bluetooth.
+        When you re ready, press the Start button.
+    </string>
+
+    <string name="tutorial_audio">
+        This section allows you to record a new voice command.
+        To do this, make sure you are in a silent space.
+        When you\'re ready, press the Start button.
+    </string>
+
+    <string name="new_button">Click the button of the external device you want to memorize.</string>
+    <string name="button">Button</string>
+    <string name="action">Action</string>
+    <string name="device">Device</string>
+    <string name="action_type1">action type</string>
+    <string name="button_code">button code</string>
+    <string name="device_code">device code</string>
+    <string name="save">Save</string>
+    <string name="empty_listview_actions">No Actions are present yet. Press + to add them</string>
+    <string name="empty_listview_games">No games are present yet. Press  \" + \" to add them</string>
+    <string name="empty_listview_links">No events are present yet. Press + to add them</string>
+    <string name="empty_listview_configurations">No configurations are present yet. Press \" + \" to add them</string>
+    <string name="permissions_denied">permissions denied</string>
+    <string name="screen_position">Touch the point on the screen where you want the action to take place</string>
+
+    <string name="models_progress_bar_text">Model training in progress</string>
+    <string name="delete_game">Warning! Deleting a game will also delete all its configurations</string>
+    <string name="delete_config">Warning! Pressing Delete will remove this configuration permanently</string>
+
+    <string name="link_title_edit">Edit Link</string>
+    <string name="link_title_new">New Link</string>
+
+    <string name="btn_link_event_name">Event name</string>
+    <string name="btn_link_event_type">Event type</string>
+    <string name="btn_link_action">Action</string>
+    <string name="btn_link_duration">Duration</string>
+    <string name="btn_link_action_stop">Action stop</string>
+    <string name="btn_link_marker_color">Marker color</string>
+
+    <string name="tutorial_tab_actions1">- Press "+" to add a new action</string>
+    <string name="tutorial_tab_actions2">- Press on an existing action to modify or delete it</string>
+
+    <string name="tutorial_tab_games1">- Press "+" to add a new game</string>
+    <string name="tutorial_tab_games2">- Press on a game to add or change a configuration</string>
+    <string name="tutorial_tab_games3">- The colored ball next to the game indicates its configuration status (green = correctly configured, yellow = something to change, red = not configured)</string>
+
+    <string name="tutorial_recordings1">- Press the "+" button to add a recording</string>
+    <string name="tutorial_recordings2">- Press the "Delete action" button to delete all the files associated with it</string>
+    <string name="tutorial_recordings3">Warning! If you decide to add a new recording you will have to try to repeat the sound that you have previously saved, not a new one!</string>
+
+    <string name="tutorial_configuration_list1">- Press the "+" button to add a configuration</string>
+    <string name="tutorial_configuration_list2">- Press on the circle next to the name of the configuration to make it active</string>
+    <string name="tutorial_configuration_list3">- Press on the name of the configuration to view its details</string>
+
+    <string name="tutorial_configuration_detail1">- Press the "Trash" button to delete this configuration</string>
+    <string name="tutorial_configuration_detail2">- Press the "+" button to add a new event</string>
+    <string name="tutorial_configuration_detail3">- When you add a vocal action to the configuration the vocal training button will appear (red: model to train, green: working model detected)</string>
+
+    <string name="start_tutorial_1">
+        Hello and welcome to Acube!
+        With A-Cube you can create shortcuts to quickly access your preferred apps
+        Let s get started!
+    </string>
+    <string name="start_tutorial_2">
+        A shortcut is a quick way to fire an *event* in app (e.g., tap on a point) with a personaized *action*.
+        There are two types of actions that you can define: button on external controller or audio instructions.
+        This app let you configure the shortcuts for your apps.
+    </string>
+    <string name="start_tutorial_3">
+        Before running this setup remember to turn the A-Cube accesibility service off. When you finish configuring, you can turn the A-Cube accessibility service on again.
+        If you have not yet installed the A-Cube accessibility service, continue here to download.
+    </string>
+    <string name="link_list_tutorial">
+        Here you can see the events you have configured
+        To create a shortcut that works correctly for each event, an action must be correlated
+    </string>
+    <string name="coordinates_tutorial">
+        Here you can choose where the event will be activated.You need a screenshot of the game.
+    </string>
+    <string name="audio_recording_tutorial">
+        Choose a simple sound that you can easily reproduce.
+        Repeat the chosen sound in different ways for about ten seconds.
+        Remember that you can replay, delete or add new recordings from the Actions tab.
+        Here you can listen to an audio example
+    </string>
+    <string name="device_tutorial">
+        Check that you have a connected Bluetooth device.
+        If at the touch of a button the codes "Device" and "Button" are updated, the app is detecting them correctly.
+    </string>
+    <string name="model_button_tutorial">
+        Green: the voice model was successfully initialized
+        Red: you must initialize the vocal model to make this link work
+    </string>
+    <string name="environmental_noise_tutorial">
+        To use voice commands, you must record an audio with the sound of the environment in which you intend to use the app.
+    </string>
+</resources>

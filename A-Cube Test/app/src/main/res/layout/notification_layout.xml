@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/notification_background"
+    android:backgroundTintMode="screen"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dip"
+        android:layout_marginTop="14dip"
+        android:layout_marginBottom="14dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/notification_bar_tv1"
+            style="Notifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/metropolis"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            tools:text="@string/noti_service_active_title" />
+
+        <TextView
+            android:id="@+id/notification_bar_tv2"
+            android:layout_width="250dip"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/metropolis"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            tools:text="@string/noti_service_active_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip">
+
+        <TextView
+            android:id="@+id/notification_bar_disable_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:layout_marginBottom="2dip"
+            android:layout_weight="1"
+            android:fontFamily="@font/metropolis"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Disabilita" />
+
+    </LinearLayout>
+
+</LinearLayout>

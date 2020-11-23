@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/metropolis</item>
+        <item name="fontFamily">@font/metropolis</item>
+    </style>
+
+    <style name="AppThemeMainActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/selectedTab</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/selectedTab</item>
+        <item name="tabTextColor">@color/white</item>
+
+    </style>
+/*
+    <!-- font for tab "Actions" and "Games" -->
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/metropolis</item>
+    </style>
+
+    <!-- POPUP STYLE -->
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/han_purple</item>
+        <item name="android:radius">20dp</item>
+    </style>
+
+    <!-- TODO CUSTOM HANDLE TEXT SELECT
+    <style name="CustomEditText" parent="@style/AppTheme">
+        <item name="android:textSelectHandle">@android:drawable/arrow_down_float</item>
+        <item name="android:textSelectHandleLeft">@android:drawable/arrow_down_float</item>
+        <item name="android:textSelectHandleRight">@android:drawable/arrow_down_float</item>
+    </style>
+    -->
+</resources>

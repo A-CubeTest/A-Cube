@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".external_devices.KeyFromDevice">
+
+    <TextView
+        android:id="@+id/newButtonText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/new_button"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Button"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newButtonText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/button"
+        android:textAlignment="textEnd"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Device"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Button"
+        android:layout_alignStart="@+id/Button"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/device"
+        android:textAlignment="textEnd"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/button_code"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Button"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/Button"
+        android:hint="@string/button_code"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/device_code"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_code"
+        android:layout_alignStart="@id/button_code"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="-12dp"
+        android:hint="@string/device_code"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/salva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:focusable="false"
+        android:onClick="saveExtKey"
+        android:text="@string/save" />
+
+</RelativeLayout>
